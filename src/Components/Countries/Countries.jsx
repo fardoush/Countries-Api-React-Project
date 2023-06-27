@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Countries.css';
 import Country from '../Country/Country';
 
 const Countries = () => {
@@ -13,7 +14,7 @@ const Countries = () => {
 
     return (
         <div className='section-padding countries-section'>
-            <h4 className=''>Country Data: {countries.length}</h4>
+            <h2 className=''>Country Data: {countries.length}</h2>
 
 <div className="country-box-wrapper">
 {
