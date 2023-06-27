@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f0f0;
+    height:80px;
+}
+.menu a{
+    color: #098989;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+}

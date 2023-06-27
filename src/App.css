@@ -1,0 +1,343 @@
+.testimonial-section .btn-wrapper .t-left a,
+.testimonial-section .btn-wrapper .t-right a {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-section .btn-wrapper .t-left a .elementor-button-icon,
+.testimonial-section .btn-wrapper .t-right a .elementor-button-icon {
+  margin-right: 0;
+}
+
+/* .testimonial-section .btn-wrapper .t-left a svg,
+.testimonial-section .btn-wrapper .t-right a svg{
+    height: 22px;
+width: 14px;
+
+} */
+
+/* .testimonial-section .btn-wrapper .t-left a:hover svg path,  .testimonial-section .btn-wrapper .t-left a:focus svg path,
+.testimonial-section .btn-wrapper .t-right a:hover svg path,
+.testimonial-section .btn-wrapper .t-right a:focus svg path{
+    fill: #CD925E!important
+} */
+
+@media (max-width: 1024px) {
+  .testimonial-section .btn-wrapper .t-left a,
+  .testimonial-section .btn-wrapper .t-right a {
+    width: 66px;
+    height: 66px;
+  }
+  /* .testimonial-section .btn-wrapper .t-left a svg,
+.testimonial-section .btn-wrapper .t-right a svg{
+    height: 18px;
+width: 11px;
+
+} */
+}
+
+@media (max-width: 767px) {
+  .testimonial-section .btn-wrapper .t-left a,
+  .testimonial-section .btn-wrapper .t-right a {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* .testimonial-section .btn-wrapper .t-left a svg,
+.testimonial-section .btn-wrapper .t-right a svg{
+    height: 16px;
+width: 10px;
+
+} */
+  .testimonial-section .btn-wrapper .t-left .elementor-button,
+  .testimonial-section .btn-wrapper .t-right .elementor-button {
+    line-height: 0 !important;
+  }
+}
+
+/*// Testimonial */
+
+/*testimonials inner review*/
+
+.testimonial .rplg {
+  background: transparent !important;
+}
+.testimonial .rplgsw-slide,
+.testimonial .rplg-box-content,
+.testimonial .rplg .rplg-box {
+  background: transparent !important;
+}
+
+.testimonial .rplgsw-slide {
+  position: relative;
+}
+
+/*.testimonial .rplgsw-slide:before {*/
+/*  position: absolute;*/
+/*  content: " ";*/
+/*  background: url("/wp-content/uploads/2023/03/testimonial-shape.svg ");*/
+/*  background-repeat: no-repeat;*/
+/*  width: 304px;*/
+/*  height: 331px;*/
+/*  right: 0px;*/
+/*  top: 0px;*/
+/*  z-index: 2;*/
+/*}*/
+.testimonial .rplg .rplg-more-toggle {
+  display: none;
+}
+
+.testimonial .rplg .rplg-box {
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.rplg-box-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial .rplg .rplg-social-logo svg {
+  display: none;
+}
+
+.testimonial .rplg .rplg-review-badge {
+  right: unset;
+  left: 0px;
+  top: 0 !important;
+}
+
+.testimonial .rplg-slider .rplg-stars {
+  width: max-content;
+  left: 77px;
+  top: 22px;
+  z-index: 5;
+  position: absolute;
+}
+
+.rplg .rplg-stars svg {
+  width: 21px !important;
+  height: 21px !important;
+  margin-right: 8px !important;
+}
+
+.testimonial .rplg-slider .rplg-row {
+  padding: 0 !important;
+}
+
+.testimonial .rplg-slider .rplg-box .rplg-box-content {
+  height: 194px !important;
+  margin: 0px !important;
+}
+
+.testimonial .rplg-slider .rplg-slider-review {
+  padding: 0px !important;
+  margin: 0 !important;
+  background: transparent;
+  border: 0 solid rgba(57, 137, 201, 1) !important;
+}
+
+.testimonial .rplg-stars svg use {
+  fill: rgba(57, 137, 201, 1) !important;
+}
+
+.testimonial span.rplg-social-logo.rplg-google-logo {
+  background: url("/wp-content/uploads/2023/06/google-svg.svg") no-repeat center;
+  width: 54px;
+  height: 64px;
+  display: inline-block;
+}
+
+.testimonial .rplg-review-name.rplg-trim {
+  position: relative;
+}
+
+.testimonial .rplg-review-name.rplg-trim:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 61px;
+  height: 2px;
+  top: 0px;
+  background: rgba(3, 85, 139, 1);
+
+  border-radius: 0px;
+}
+
+.testimonial .rplg-slider .rplg-slider-next,
+.rplg-slider .rplg-slider-prev {
+  display: none;
+}
+
+.testimonial .rplg .rplg-row-right .rplg-review-name {
+  color: var(--e-global-color-secondary) !important;
+  font-family: var(--e-global-typography-80c5003-font-family), Sans-serif !important;
+  font-size: var(--e-global-typography-80c5003-font-size) !important;
+  font-weight: var(--e-global-typography-80c5003-font-weight) !important;
+  text-transform: var(--e-global-typography-80c5003-text-transform) !important;
+  font-style: var(--e-global-typography-80c5003-font-style) !important;
+  line-height: var(--e-global-typography-80c5003-line-height) !important;
+  letter-spacing: var(--e-global-typography-80c5003-letter-spacing) !important;
+  word-spacing: var(--e-global-typography-80c5003-word-spacing) !important;
+  padding-top: 24px;
+}
+
+.testimonial .rplg .rplg-review-text {
+  color: var(--e-global-color-primary) !important;
+  font-family: var(--e-global-typography-78239f1-font-family), Sans-serif !important;
+  font-size: var(--e-global-typography-78239f1-font-size) !important;
+  font-weight: var(--e-global-typography-78239f1-font-weight) !important;
+  font-style: var(--e-global-typography-78239f1-font-style) !important;
+  line-height: var(--e-global-typography-78239f1-line-height) !important;
+  letter-spacing: var(--e-global-typography-78239f1-letter-spacing) !important;
+  word-spacing: var(--e-global-typography-78239f1-word-spacing) !important;
+  margin-top: 80px;
+  overflow: hidden !important;
+  max-width: 100% !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  text-overflow: ellipsis !important;
+  max-width: 540px;
+}
+
+.testimonial .rplg .rplg-review-text span.rplg-more {
+  display: none !important;
+}
+
+.testimonial .rplg-slider .rplg-box:before {
+  display: none !important;
+}
+
+.testimonial .rplg-slider .rplg-box .rplg-box-content:before {
+  content: none !important;
+}
+
+.testimonial .testimonial-body {
+  position: relative;
+}
+
+.testimonial .t-left a,
+.testimonia .t-right a {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-btn .t-left a .elementor-align-icon-left,
+.testimonial-btn .t-right a .elementor-align-icon-left {
+  margin-right: 0 !important;
+}
+.testimonial-btn .t-left a svg,
+.testimonial-btn .t-right a svg {
+  width: 19px;
+  font-size: 21px;
+  height: 22px;
+}
+
+.testimonial .t-left .elementor-button .elementor-align-icon-right,
+.testimonial .t-right .elementor-button .elementor-align-icon-right {
+  margin-left: unset !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .testimonial-img-wrapper .elementor-widget-image,
+  .testimonial-img-wrapper .elementor-widget-image img {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1025px) {
+  .testimonial .rplg .rplg-review-text {
+    margin-top: 75px;
+  }
+
+  .testimonial
+    .col-padding
+    > .elementor-widget-wrap.elementor-element-populated {
+    padding: 30px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonial-section:after {
+    display: none;
+  }
+  /* .testimonial .rplgsw-slide:before {
+    background: url("/wp-content/uploads/2023/03/testimonial-tab-shape.svg");
+    width: 229.61px;
+  } */
+  .testimonial span.rplg-social-logo.rplg-google-logo {
+    width: 54px;
+    height: 64px;
+    background-size: contain;
+  }
+
+  .testimonial .rplg-slider .rplg-box .rplg-box-content {
+    /* height: 186px !important; */
+    height: 172px !important;
+  }
+
+  .testimonial .rplg .rplg-review-text {
+  }
+
+  .testimonial .rplg-slider .rplg-stars {
+    top: 18px;
+  }
+
+  .testimonial .rplg-review-name.rplg-trim:before {
+    width: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial .rplgsw-slide {
+    position: relative;
+  }
+  .testimonial .rplg-review-name.rplg-trim:before {
+    width: 53px;
+  }
+
+  .testimonial .rplg .rplg-review-text {
+    margin-top: 56px;
+  }
+  .testimonial .rplg .rplg-row-right .rplg-review-name {
+    padding-top: 16px;
+  }
+
+  .testimonial .rplg-slider .rplg-slider-review {
+    padding: 0px !important;
+  }
+
+  .testimonial span.rplg-social-logo.rplg-google-logo {
+    width: 35px;
+    height: 41px;
+    background-size: contain;
+  }
+
+  .testimonial .rplg-slider .rplg-box .rplg-box-content {
+    /* height: 146px !important; */
+    height: 131px !important;
+  }
+
+  .testimonial .rplg-slider .rplg-stars {
+    left: 50px;
+    top: 10px;
+  }
+
+  .rplg .rplg-stars svg {
+    width: 21px !important;
+    height: 21px !important;
+  }
+
+  .testimonial .rplg .rplg-row-right a.rplg-review-name {
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+}

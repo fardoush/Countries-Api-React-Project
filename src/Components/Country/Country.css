@@ -1,0 +1,81 @@
+/* 
+
+h4{
+    text-align: center;
+    padding:50px 0;
+    font-size: 35px;
+    
+}
+
+.country-box-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.country-box-inner{
+    width: 700px;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(241, 218, 218);
+    padding:20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+} */
+
+.countries-section h4{
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-box-wrapper{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px 30px;
+    /* grid-gap:10px 15px; */
+
+    /* display: flex;
+    align-items: center;
+    gap:20px; */
+}
+.country-box-inner{
+    /* width: 350px; */
+    background: #686de0;
+    /* padding: 20px; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+   padding:30px;
+ 
+}
+.content-inner{
+    text-align: center;
+    padding: 0 20px;
+}
+.country-box-inner img{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* border-radius: 10px 10px 0 0; */
+}
+
+.country-box-inner h4{
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 10px;
+
+}
+.country-box-inner h6{
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
